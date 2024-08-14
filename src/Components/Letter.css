@@ -1,0 +1,79 @@
+/* Letter.css */
+
+.letter {
+    text-align: center;
+    padding: 50px 60px; /* 상단과 하단 여백 조정 */
+    position: static;
+    overflow: hidden; /* 폭죽 효과를 위한 오버플로우 숨김 */
+  }
+  
+  .open-letter-button {
+    background-color: #ffcc00;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 0; /* 버튼 여백 조정 */
+    cursor: pointer;
+  }
+  
+  .letter-body-container {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 80%; /* Adjust as needed */
+  }
+  
+  .letter-body {
+    border: 2px solid #000;
+    padding: 20px;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 600px; /* Optional: limit width */
+    background-color: #f8f9fa;
+  }
+  
+  .message {
+    position: absolute;
+    bottom: 20px; /* Position slightly above the bottom */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+    z-index: 10; /* 편지 내용 위에 표시되도록 설정 */
+    padding: 20px; /* Add padding to make sure content is visible */
+    box-sizing: border-box; /* Ensure padding is included in width */
+  }
+  
+  .birthday-message {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ff66b2;
+    margin-bottom: 10px;
+  }
+  
+  .cake-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  
+  .cake-emoji {
+    font-size: 4em;
+    animation: fallCake 2s ease-in-out forwards;
+  }
+  
+  @keyframes fallCake {
+    0% {
+      opacity: 0;
+      transform: translateY(-100px); /* 시작 위치 */
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); /* 최종 위치 */
+    }
+  }
+  

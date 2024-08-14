@@ -1,0 +1,50 @@
+/* App.css */
+
+/* 전체 배경색 및 기본 스타일 */
+body {
+  background-color: #f0f0f0; /* 배경색 변경 */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* App 컨테이너 스타일 */
+.App {
+  text-align: center;
+}
+
+/* 헤더 스타일 */
+.header {
+  background-color: #333; /* 헤더 배경색 */
+  color: #fff; /* 헤더 텍스트 색상 */
+  padding: 10px 0;
+}
+
+/* 메뉴바 스타일 */
+.navbar {
+  display: flex;
+  justify-content: center; /* 메뉴 항목을 중앙에 배치 */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* 메뉴바 링크 스타일 */
+.nav-link {
+  color: #f2f2f2; /* 링크 텍스트 색상 */
+  text-decoration: none;
+  padding: 14px 20px;
+  display: block;
+  font-size: 16px;
+}
+
+.nav-link:hover {
+  background-color: #ddd; /* 호버 시 배경색 */
+  color: black; /* 호버 시 텍스트 색상 */
+}
+
+/* 메인 콘텐츠 스타일 */
+main {
+  padding: 20px;
+  background-color: #fff; /* 콘텐츠 영역 배경색 */
+  min-height: 80vh; /* 최소 높이 설정 */
+}
