@@ -2,7 +2,7 @@
   "name": "birthday",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://daa0c.github.io/react-project/",
+  "homepage": "https://daa0c.github.io/react_birthday/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
