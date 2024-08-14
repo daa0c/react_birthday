@@ -1,10 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import '../styles.css';
 
 const Home = () => {
   const birthday = new Date('2024-08-14T00:00:00');
-  const [timeLeft, setTimeLeft] = useState(getTimeLeft());
-
+  // const [timeLeft, setTimeLeft] = useState(getTimeLeft());
   function getTimeLeft() {
     const now = new Date();
     const distance = birthday - now;
@@ -15,6 +14,7 @@ const Home = () => {
       seconds: Math.floor((distance % (1000 * 60)) / 1000),
     };
   }
+  const timeLeft = getTimeLeft()
 
   // useEffect(() => {
   //   const timer = setInterval(() => {
