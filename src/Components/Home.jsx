@@ -16,13 +16,13 @@ const Home = () => {
     };
   }
 
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setTimeLeft(getTimeLeft());
-    }, 1000);
+  // useEffect(() => {
+  //   const timer = setInterval(() => {
+  //     setTimeLeft(getTimeLeft());
+  //   }, 1000);
 
-    return () => clearInterval(timer);
-  }, []);
+  //   return () => clearInterval(timer);
+  // }, []);
 
   return (
     <div className="home">
