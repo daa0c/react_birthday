@@ -28,7 +28,7 @@ const Home = () => {
     <div className="home">
       <div className="countdown-wrapper">
         {timeLeft.days <= 0 && timeLeft.hours <= 0 && timeLeft.minutes <= 0 && timeLeft.seconds <= 0 ? (
-          <h1 className="celebrate">오늘은 선주의 생일입니다. 생일 추카포카푸카포카!</h1>
+          <h1 className="celebrate">☘🍀오늘은 선주의 생일입니다. 생일 추카포카푸카포카!🌈✨🎉🎊🎆🎇🙌💗✳🎁🎀🎡</h1>
         ) : (
           <div className="countdown">
             <h1>선주의 생일까지✨</h1>
